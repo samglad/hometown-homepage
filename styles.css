@@ -1,0 +1,133 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+#hero-section {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    /* height: 343px; */
+    padding-top: 119px;
+    padding-bottom: 119px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+#header-text {
+    background: #1D3557;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+#subheader {
+    color: white;
+    border-radius: 10px;
+    background: #457B9D;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 8px;
+}
+
+#section2 {
+    background: #F1FAEE;
+    padding: 30px 20px 50px 20px;
+    margin-top: auto;
+}
+
+.subsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top3 {
+    padding-bottom: 20px;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h4 {
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#footer {
+    padding: 50px 0;
+}
+.card {
+    width: 400px;
+    height: 294px;
+    background: #A8DADC;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
+    border-bottom: 6px solid #1D3557;
+}
+#card-img {
+    width: 180px;
+    height: 248.667px;
+    border-radius: 10px;
+    padding-left: 13px;
+    padding-right: 7px
+}
+ .guide {
+     color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ 
+ .quote {
+     color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 7px;
+ }
